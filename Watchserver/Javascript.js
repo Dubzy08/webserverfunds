@@ -1,29 +1,31 @@
+function checkForm() {
+  return (checkLetters() && checkRadios("power") && checkRadios("type") && checkRadios("charge"));
+}
 
-function checkradio1() {
-  var radios = document.getElementsByName("power");
-  var mainspring = document.getElementById("Main Spring")
-  var formValid = 1;
-
+function checkRadios(rname) {
+  var radios = document.getElementsByName(rname);
+  var formValid = false;
   var i = 0;
-    while (!formValid && i < radios.length) {
-        if (radios[i].checked) 
-          formValid = 1;
-        i++;        
-    }
 
-    if (!formValid) alert("Q1: Must check some option!");
-    return formValid;
-}​
+  while (!formValid && i < radios.length) {
+    if (radios[i].checked)
+      formValid = true;
+    i++;
+  }
 
-function checkletters(fname, lname) {
+  if (!formValid) alert("Must check some option on all questions!");
+  return formValid;
+}
+
+function checkLetters() {
+  var fname = document.getElementById("firstname");
+  var lname = document.getElementById("lastname");
   var letters = /^[A-Za-z]+$/;
-  if ((fname.value.match(letters)) && (lname.value.match(letters))) {
-      {
-          return true;
-      }
+  if (fname.value.match(letters) && lname.value.match(letters)) {
+    return true;
   }
   else {
-      alert("Names can only contain letters");
-      return false;
+    alert("Names can only contain letters");
+    return false;
   }
 }

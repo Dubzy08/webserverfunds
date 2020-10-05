@@ -5,7 +5,7 @@
   <h2>
     Test Your knowlege
   </h2>
-  <script src=Javascript.js></script>
+  <script src="javascript.js"></script>
 </head>
 
 <body>
@@ -13,25 +13,25 @@
     Test your knowlege on watches that you have <br> just learned with the following quiz<br><br>
   </div>
 
-  <form onsubmit="return checkradio1() &&  checkletters(firstname, lastname);">
+  <form onsubmit="return checkForm();">
 
-    <br>
-    First Name<br>
-    <input type="text" name="firstname" required>
+    <br/>
+    First Name<br/>
+   <input type="text" id="firstname" name="firstname" required>
     <br><br>
 
     Last Name <br>
-    <input type="text" name ="lastname" required>
+    <input type="text" id="lastname" name ="lastname" required>
     <br><br>
 
     <div>
       Q1. What powers a mechanical watch?
     </div>
-    <input type="radio" id="Main Spring" name="power" value="0">
+    <input type="radio" id="Main Spring" name="power" value="0"></input>
     <label for="Main Spring">Main Spring</label><br>
-    <input type="radio" id="Hairspring" name="power" value="1">
+    <input type="radio" id="Hairspring" name="power" value="1"></input>
     <label for="Hairspring">Hairspring</label><br>
-    <input type="radio" id="Crown" name="power" value="2">
+    <input type="radio" id="Crown" name="power" value="2"></input>
     <label for="Crown">Crown</label>
     
     <div>
