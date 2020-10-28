@@ -12,6 +12,9 @@
   <div>
     Test your knowlege on watches that you have <br> just learned with the following quiz<br><br>
   </div>
+  <?php
+    echo "Test your knowlege on watches that you have"
+  ?>
 
   <form onsubmit="return checkForm();">
 
