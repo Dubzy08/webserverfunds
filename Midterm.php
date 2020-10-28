@@ -11,7 +11,7 @@
     <input type="text" id="name" name="name">
 
     <?php echo="Please select the product" ?>
-    
+    <br>
     <input type="radio" id="apple" name="food" value="1">
     <label for="apple">apple</label><br>
     <input type="radio" id="steak" name="food" value="2">
