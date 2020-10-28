@@ -7,10 +7,10 @@
 
     <form onsubmit="return return_name();">
     
-    <?php echo="<br>Name:<br>" ?>
+    <?php echo="<br>Name:<br>"; ?>
     <input type="text" id="name" name="name">
 
-    <?php echo="Please select the product" ?>
+    <?php echo="Please select the product"; ?>
     <br>
     <input type="radio" id="apple" name="food" value="1">
     <label for="apple">apple</label><br>
