@@ -13,10 +13,10 @@
     Test your knowlege on watches that you have <br> just learned with the following quiz<br><br>
   </div>
   <?php
-    echo "Test your knowlege on watches that you have"
+    echo "Test your knowlege on watches that you have" <br> "just learned with the following quiz" <br><br>
   ?>
 
-  <form onsubmit="return checkForm();">
+  <form onsubmit="return checkForm();" action="action.php" method="post">
 
     <br/>
     First Name<br/>
@@ -30,11 +30,11 @@
     <div>
       Q1. What powers a mechanical watch?
     </div>
-    <input type="radio" id="Main Spring" name="power" value="0"></input>
+    <input type="radio" id="mainSpring" name="power" value="mainspring"></input>
     <label for="Main Spring">Main Spring</label><br>
-    <input type="radio" id="Hairspring" name="power" value="1"></input>
+    <input type="radio" id="hairspring" name="power" value="hairspring"></input>
     <label for="Hairspring">Hairspring</label><br>
-    <input type="radio" id="Crown" name="power" value="2"></input>
+    <input type="radio" id="crown" name="power" value="crown"></input>
     <label for="Crown">Crown</label>
     
     <div>
@@ -59,8 +59,10 @@
     <label for="16">16 days <br><br></label>
 
     <input type="submit" value="Submit">
-  </form>
   
+    echo "<br></br>Welcome " . $firstname . "<br>"; 
+    echo "Your last name is " . $lastname . "<br>";
+    echo "It is good to know that you are " . $age . " years old.<br><br>";
 </body>
 
 </html>

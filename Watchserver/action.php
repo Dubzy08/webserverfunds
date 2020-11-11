@@ -10,7 +10,7 @@ $fnameerr = $lnameerr = "";
     }
     else {
         $fname = test_input($_POST["firstname"]); //apply the variable to the input and then return it
-    }                                             //repeate for the other forms
+    }
 
     if (empty($_POST["lastname"])){
         $nameerr = "Last Name is required"
