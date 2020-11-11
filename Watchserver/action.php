@@ -6,17 +6,17 @@ $fnameerr = $lnameerr = "";
 
     //checking the text boxes
     if (empty($_POST["firstname"])){
-        $nameerr = "First Name is required";
+        $fnameerr = "First Name is required";
     }
     else {
         $fname = test_input($_POST["firstname"]); //apply the variable to the input and then return it
     }
 
     if (empty($_POST["lastname"])){
-        $nameerr = "Last Name is required";
+        $lnameerr = "Last Name is required";
     }
     else {
-        $fname = test_input($_POST["lastname"]);
+        $lname = test_input($_POST["lastname"]);
     }  
 
     //checing the radio power
