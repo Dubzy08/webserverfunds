@@ -50,6 +50,10 @@ function test_input($data) {
     return $data;
 }
 
+echo "<br></br>Welcome " . $firstname . "<br>"; 
+echo "Your last name is " . $lastname . "<br>";
+echo "It is good to know that you are " . $age . " years old.<br><br>";
+
 ?>
 
 </html>
