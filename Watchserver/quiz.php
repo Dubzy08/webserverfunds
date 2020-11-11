@@ -56,10 +56,7 @@
     <label for="16">16 days <br><br></label>
 
     <input type="submit" value="Submit">
-  
-    echo "<br></br>Welcome " . $firstname . "<br>"; 
-    echo "Your last name is " . $lastname . "<br>";
-    echo "It is good to know that you are " . $age . " years old.<br><br>";
+
 </body>
 
 </html>
