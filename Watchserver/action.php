@@ -2,7 +2,9 @@
 <html>
 
 <?php 
+$ledstate = ($_POST["led"]);
 $fnameerr = $lnameerr = "";
+
 
     //checking the text boxes
     if (empty($_POST["firstname"])){
@@ -19,7 +21,7 @@ $fnameerr = $lnameerr = "";
         $lname = test_input($_POST["lastname"]);
     }  
 
-    //checing the radio power
+    //checking the radio power
     if (empty($_POST["power"])){
         $powererr = "Field is required";
     }
@@ -27,7 +29,7 @@ $fnameerr = $lnameerr = "";
         $power = test_input($_POST["power"]);
     } 
 
-    //checing the radio type
+    //checking the radio type
     if (empty($_POST["type"])){
         $powererr = "Field is required";
     }
@@ -35,13 +37,25 @@ $fnameerr = $lnameerr = "";
         $power = test_input($_POST["type"]);
     } 
 
-    //checing the radio charge
+    //checking the radio charge
     if (empty($_POST["charge"])){
         $powererr = "Field is required";
     }
     else {
         $power = test_input($_POST["charge"]);
     } 
+
+    //initializing led port
+    $output = shell_exec(gpio mode 0 out)
+    echo "<div>$output</div>"}
+    
+    //checking led state
+    if ($ledstate) {
+        $output = shell_exec(gpio write 0 1)
+        echo "<div>$output</div>"}
+    else {
+        $output = shell_exec(gpio write 0 0)
+        echo "<div>$output</div>"}
 
 function test_input($data) {
     $data = trim($data);
