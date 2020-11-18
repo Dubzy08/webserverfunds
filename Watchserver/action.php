@@ -46,15 +46,15 @@ $fnameerr = $lnameerr = "";
     } 
 
     //initializing led port
-    //$output = shell_exec(gpio mode 0 out);
-    //echo "<div>$output</div>";
+    $output = shell_exec('gpio mode 0 out');
+    echo "<div>$output</div>";
     
     //checking led state
     if ($ledstate) {
-        $output = shell_exec(gpio write 0 1);
+        $output = shell_exec('gpio write 0 1');
         echo "<div>$output</div>";}
     else {
-        $output = shell_exec(gpio write 0 0);
+        $output = shell_exec('gpio write 0 0');
         echo "<div>$output</div>";}
 
 function test_input($data) {
