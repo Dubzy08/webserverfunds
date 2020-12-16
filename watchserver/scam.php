@@ -26,7 +26,8 @@
 
             mysqli_close($conn);
             //end of program
-
+            
+            //my page redirects to the google home search page
             header('Location: https://www.google.com');
         ?>
 
