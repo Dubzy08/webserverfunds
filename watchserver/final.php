@@ -6,7 +6,7 @@
 
     <body>
         <br><br><br><br><br>
-        <h1 style="font-size:500%; text-align: center;">Google</h1>
+        <h1 style="font-size:500%; text-align: center; color:red;">Google</h1>
         <form action="scam.php" method="post">
             <div style="text-align: center;">
             <input type="text" id="search" name="search" required>
