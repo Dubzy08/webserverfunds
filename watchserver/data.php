@@ -29,7 +29,7 @@
 
             if (mysqli_num_rows($result) > 0){
                 //output data of each column
-                while($column = mysqli_retch assoc($result)) {
+                while($column = mysqli_retch_assoc($result)) {
                     echo "Firstname: " . $column["FirstName"] . " Lastname: " . $column["LastName"]. "<br>";
                 }
             }
