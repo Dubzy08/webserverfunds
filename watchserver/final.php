@@ -3,7 +3,13 @@
     <head>
         <title>Google</title>
     </head>
-
+    <style>
+    img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    </style>
     <body>
         <br><br><br><br><br>
         <div styel="text-align:center">
