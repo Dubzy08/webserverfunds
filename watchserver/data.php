@@ -10,7 +10,6 @@
 
             $EnterFname = $_POST["firstname"];
             $EnterLname = $_POST["lastname"];
-            $Enter
 
 
             //create connection to mysql
