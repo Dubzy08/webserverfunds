@@ -19,7 +19,7 @@
                 <a href="quiz.php"><br>Test Your Knowledge</a>
             <div>
         <form method="post">
-            <input type="sumbit" id="toggle" name="toggle" value="Toggle LED">
+            <input type="submit" id="toggle" name="toggle" value="Toggle LED">
         </form>
 
         <?php
