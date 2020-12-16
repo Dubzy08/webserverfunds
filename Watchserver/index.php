@@ -42,6 +42,11 @@
             echo "<br>LED should toggle OFF!<br>";
             }
         }
+
+            //Execute function on post
+            if(array_key_exists('test',$_POST)){
+                toggler();
+            }
         ?>
     </body>
 </html>
