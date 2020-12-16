@@ -10,7 +10,7 @@
 
 <body>
   <div>
-    Test your knowlege on watches that you have <br> just learned with the following quiz<br><br>
+    Test your knowlege on watches that you have <br> just learned about with the following quiz<br><br>
   </div>
 
   <form action="data.php" method="post">
