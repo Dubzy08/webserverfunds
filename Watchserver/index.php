@@ -18,5 +18,28 @@
             <div style="font-size:200%;">
                 <a href="quiz.php"><br>Test Your Knowledge</a>
             <div>
-        </body>
+        <form method="post">
+            <input type="sumbit" id="toggle" name="toggle" value="Toggle LED">
+        </form>
+
+        <?php
+            function toggler() {
+            //Read value of gpio.0 pin
+            $output = 'gpio read 0';
+
+//this section is for GPIO toggles an LED 
+            //If pin is low
+            if (($output = 'gpio read 0')) == 0){
+                $output = 'gipo write gpio.0 1';
+                echo "<div>$output</div>";              //show output on command line level
+                echo "<br>LED should toggle ON!<br>";   //show output on website
+            }
+            
+            //If pin is high
+            else if (($output = 'gpio read 0')) == 1)
+            $output = 'gpio write gpio.0 0';
+            echo "<div>$output</div>";
+            echo "<br>LED should toggle OFF!<br>"
+
+    </body>
 </html>
