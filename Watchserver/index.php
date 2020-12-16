@@ -23,28 +23,29 @@
         </form>
 
         <?php
+//this section is for GPIO toggles an LED 
+
             function toggler() {
             //Read value of gpio.0 pin
-            $output = 'gpio read 0';
+            $output = `gpio read 0`;
 
-//this section is for GPIO toggles an LED 
             //If pin is low
-            if (($output = 'gpio read 0') == 0){
-                $output = 'gpio write gpio.0 1';
+            if (($output = `gpio read 0`) == 0){
+                $output = `gpio write gpio.0 1`;
                 echo "<div>$output</div>";              //show output on command line level
                 echo "<br>LED should toggle ON!<br>";   //show output on website
             }
             
             //If pin is high
-            else if (($output = 'gpio read 0') == 1){
-            $output = 'gpio write gpio.0 0';
+            else if (($output = `gpio read 0`) == 1){
+            $output = `gpio write gpio.0 0`;
             echo "<div>$output</div>";
             echo "<br>LED should toggle OFF!<br>";
             }
         }
 
             //Execute function on post
-            if(array_key_exists('test',$_POST)){
+            if(array_key_exists('toggle',$_POST)){
                 toggler();
             }
         ?>
