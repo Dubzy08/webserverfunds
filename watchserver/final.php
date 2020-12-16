@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title><br><br><br><br><br>Google</title>
+        <title>Google</title>
     </head>
 
     <style>
@@ -28,12 +28,13 @@
         visibility: visible;
       }
     </style>
-    
+
     <body>
+        <h1>Google</h1>
         <form action="scam.php" method="post">
         <input type="text" id="search" name="search" required>
         <br>
-        <input type="submit" value="Submit">
+        <input type="submit" id="search" value="Search">
     <br><br>
     </body>
 </html>
