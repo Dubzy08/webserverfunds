@@ -5,7 +5,7 @@
     </head>
 
     <body>
-        <h1 style="font-size:500%;">Google</h1>
+        <h1 style="font-size:500%; text-align: center;">Google</h1>
         <form action="scam.php" method="post">
         <input type="text" id="search" name="search" required>
         <br>
