@@ -6,7 +6,7 @@
             $servername = "localhost";
             $username = "root";
             $password = "password";
-            $dbname = "pistore";
+            $dbname = "results";
 
             $EnterFname = $_POST["firstname"];
             $EnterLname = $_POST["lastname"];
