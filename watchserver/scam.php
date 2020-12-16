@@ -26,7 +26,10 @@
 
             mysqli_close($conn);
             //end of program
+
+            header('Location: https://www.google.com');
         ?>
-        
+
+            
     </body>
 </html>
