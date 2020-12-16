@@ -30,7 +30,7 @@
 //this section is for GPIO toggles an LED 
             //If pin is low
             if (($output = 'gpio read 0')) == 0){
-                $output = 'gipo write gpio.0 1';
+                $output = 'gpio write gpio.0 1';
                 echo "<div>$output</div>";              //show output on command line level
                 echo "<br>LED should toggle ON!<br>";   //show output on website
             }
