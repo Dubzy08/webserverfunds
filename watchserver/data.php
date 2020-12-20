@@ -10,6 +10,9 @@
 
             $EnterFname = $_POST["firstname"];
             $EnterLname = $_POST["lastname"];
+            $EnterAns1 = $_POST["power"];
+            $EnterAns2 = $_POST["type"];
+            $EnterAns3 = $_POST["charge"];
 
 
             //create connection to mysql
@@ -21,7 +24,7 @@
             }
 
             //insert data from form
-            $sql = "INSERT INTO answers (FirstName,LastName) VALUES ('$EnterFname','$EnterLname')";
+            $sql = "INSERT INTO answers (FirstName,LastName,Ans1,Ans2,Ans3) VALUES ('$EnterFname','$EnterLname','$Enterans1','$Enterans2','$Enterans3')";
             
             //select data and query
             $sql = "SELECT * FROM answers";
