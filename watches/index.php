@@ -12,7 +12,7 @@
             <li><a href="automatic.php">Mechanical Automatic</a></li>
             <li>Quartz</li>
             <li><a href="kinetic.php">Kinetic</a></li>
-            <li>Solar</li>
+            <li><a href="solar.php">Solar</a></li>
         </ul>
             <img src="https://cdn2.jomashop.com/media/catalog/product/c/i/citizen-cto-men_s-watch-bu4020-01l.jpg" alt="Citizen solar watch" width="250" />
             <div style="font-size:200%;">
