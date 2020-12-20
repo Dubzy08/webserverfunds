@@ -5,7 +5,7 @@
             //define variables
             $servername = "localhost";
             $username = "root";
-            $password = "password";
+            $password = "Password01";
             $dbname = "results";
 
             $EnterFname = $_POST["firstname"];
