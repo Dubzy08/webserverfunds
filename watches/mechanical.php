@@ -9,9 +9,7 @@
         <div>
             These are all mechanical watches with different complications
             <br>
-            <from action="index.php">
-                <input type="submit" value="Return">
-            </form>
+            <a href="index.php">Return</a> to main page
         </div>
     </body>
 </html>
