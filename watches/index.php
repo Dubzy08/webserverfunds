@@ -9,7 +9,7 @@
         <div>There are many types of analog watches which function totally differently. The following is a list of a few diferent types:</div>
         <ul>
             <li><a href="mechanical.php">Mechanical</a></li>
-            <li>Mechanical Automatic</li>
+            <li><a href="automatic.php">Mechanical Automatic</a></li>
             <li>Quartz</li>
             <li>Kinetic</li>
             <li>Solar</li>

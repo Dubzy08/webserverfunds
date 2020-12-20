@@ -11,7 +11,8 @@
             The way it works is that a spring called the Main Spring holds energy by being<br>
             sprung in the oppsite direction. This spring desprings as the time goes by.<br>
             To recharge the watch, you must manually turn the crown which will respring the watch.
-            <br>
+            <br><br>
+            Here we can see the inside of a luxury mecahnical watch:
             <img src="https://www.matthewbaininc.com/assets/images/watches/Patek-3970EG/patek-3970eg-z2.jpg" alt="Mechanical watch" width="400" />
             <br>
             <br>
