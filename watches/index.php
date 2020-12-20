@@ -5,13 +5,13 @@
     </head>
     <body>
         <h1>The World of Watches</h1>
-        <h2>Types</span> of <span style="color:gold">Watches</span></h2>
+        <h2>Types of <span style="color:gold">W</span><span style="color:green">a</span><span style="color:blue">t</span><span style="color:red">c</span></h2>
         <div>There are many types of analog watches which function totally differently. The following is a list of a few diferent types:</div>
         <ul>
             <li><a href="mechanical.php">Mechanical</a></li>
             <li><a href="automatic.php">Mechanical Automatic</a></li>
             <li>Quartz</li>
-            <li><a href="kinetic.php">Kinetic</a</li>
+            <li><a href="kinetic.php">Kinetic</a></li>
             <li>Solar</li>
         </ul>
             <img src="https://cdn2.jomashop.com/media/catalog/product/c/i/citizen-cto-men_s-watch-bu4020-01l.jpg" alt="Citizen solar watch" width="250" />
