@@ -11,7 +11,7 @@
             <li><a href="mechanical.php">Mechanical</a></li>
             <li><a href="automatic.php">Mechanical Automatic</a></li>
             <li>Quartz</li>
-            <li>Kinetic</li>
+            <li><a href="kinetic.php">Kinetic</a</li>
             <li>Solar</li>
         </ul>
             <img src="https://cdn2.jomashop.com/media/catalog/product/c/i/citizen-cto-men_s-watch-bu4020-01l.jpg" alt="Citizen solar watch" width="250" />
