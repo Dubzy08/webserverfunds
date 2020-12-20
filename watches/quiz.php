@@ -55,11 +55,6 @@
     <input type="radio" id="16" name="charge" value="16">
     <label for="16">16 days <br><br></label>
 
-    <input type="radio" id="off" name="led" value="0">
-    <label for="off">LED off</label><br>
-    <input type="radio" id="on" name="led" value="1">
-    <label for="on">LED on</label><br>
-
     <input type="submit" value="Submit">
   </form>
 </body>
