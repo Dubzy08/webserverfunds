@@ -33,7 +33,7 @@
 
             if (mysqli_num_rows($result) > 0){
                 //output data of each column
-                echo "entry successful!"
+                echo "entry successful!";
                 while($column = mysqli_retch_assoc($result)) {
                     echo "Firstname: " . $column["FirstName"] . " Lastname: " . $column["LastName"]. " First Answer: " . $column["Ans1"]. " Second Answer: " . $column["Ans2"]." Third Answer: " . $column["Ans3"]. "<br>";
                 }
