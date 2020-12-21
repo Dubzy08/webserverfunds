@@ -31,10 +31,10 @@
             $sql = "SELECT * FROM answers";
             $results = mysqli_query($conn, $sql);
 
-            if (mysqli_num_rows($result) > 0){
+            if (mysqli_num_rows($results) > 0){
                 //output data of each column
                 echo "entry successful!";
-                while($column = mysqli_retch_assoc($result)) {
+                while($column = mysqli_retch_assoc($results)) {
                     echo "Firstname: " . $column["FirstName"] . " Lastname: " . $column["LastName"]. " First Answer: " . $column["Ans1"]. " Second Answer: " . $column["Ans2"]." Third Answer: " . $column["Ans3"]. "<br>";
                 }
             }
