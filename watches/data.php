@@ -25,7 +25,7 @@
             }
 
             //insert data from form
-            $sql = "INSERT INTO answers (FirstName, LastName) VALUES ('$EnterFname','$EnterLname')";
+            $sql = "INSERT INTO answers (FirstName, LastName, Ans1, Ans2, Ans3) VALUES ('$EnterFname','$EnterLname','drunk','drunk','drunk')";
             //$sql = "INSERT INTO answers (FirstName, LastName, Ans1, Ans2, Ans3) VALUES ('$EnterFname','$EnterLname','$EnterAns1','$EnterAns2','$EnterAns3')";
             
             //select data and query
