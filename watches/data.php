@@ -25,10 +25,11 @@
             }
 
             //insert data from form
-            $sql = "INSERT INTO drunks (FirstName, LastName, Ans1, Ans2, Ans3) VALUES ('$EnterFname','$EnterLname','$EnterAns1','$EnterAns2','$EnterAns3')";
+            $sql = "INSERT INTO answers (FirstName, LastName) VALUES ('$EnterFname','$EnterLname')";
+            //$sql = "INSERT INTO answers (FirstName, LastName, Ans1, Ans2, Ans3) VALUES ('$EnterFname','$EnterLname','$EnterAns1','$EnterAns2','$EnterAns3')";
             
             //select data and query
-            $sql = "SELECT * FROM drunks";
+            $sql = "SELECT * FROM answers";
             $result = mysqli_query($conn, $sql);
 
             if (mysqli_num_rows($result) > 0){
