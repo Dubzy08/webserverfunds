@@ -25,13 +25,13 @@
             }
 
             //insert data from form
-            $sql = "INSERT INTO answers (FirstName,LastName,Ans1,Ans2,Ans3) VALUES ('$EnterFname','$EnterLname','$Enterans1','$Enterans2','$Enterans3')";
+            $sql = "INSERT INTO answers (FirstName, LastName, Ans1, Ans2, Ans3) VALUES ('$EnterFname','$EnterLname','$Enterans1','$Enterans2','$Enterans3')";
             
             //select data and query
             $sql = "SELECT * FROM answers";
             $results = mysqli_query($conn, $sql);
             echo "<br> successful $EnterFname, $EnterLname, $EnterAns1, $EnterAns2, $EnterAns3";
-            
+
             if (mysqli_num_rows($results) > 0){
                 //output data of each row
                 while($row = mysqli_retch_assoc($results)) {
