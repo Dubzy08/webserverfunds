@@ -25,7 +25,7 @@
             }
 
             //insert data from form
-            $sql = "INSERT INTO answers (FirstName, LastName, Ans1, Ans2, Ans3) VALUES ('$EnterFname','$EnterLname','$Enterans1','$Enterans2','$Enterans3')";
+            $sql = "INSERT INTO answers (FirstName, LastName, Ans1, Ans2, Ans3) VALUES ('$EnterFname','$EnterLname','$EnterAns1','$EnterAns2','$EnterAns3')";
             
             //select data and query
             $sql = "SELECT * FROM answers";
@@ -34,7 +34,7 @@
             if (mysqli_num_rows($result) > 0){
                 //output data of each row
                 do{
-                    echo"<br>"
+                    echo"<br>";
                     echo "Firstname: " . $row["FirstName"] . " Lastname: " . $row["LastName"]. " First Answer: " . $row["Ans1"]. " Second Answer: " . $row["Ans2"]." Third Answer: " . $row["Ans3"]. "<br>";
                 }while($row = mysqli_retch_assoc($result));
             }
