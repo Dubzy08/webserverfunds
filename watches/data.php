@@ -5,7 +5,7 @@
         <?php
             //define variables
             $servername = "localhost";
-            $username = "root";
+            $username = "jeremy";
             $password = "Password01";
             $dbname = "results";
 
@@ -34,7 +34,7 @@
             if (mysqli_num_rows($result) > 0){
                 //output data of each row
                 do{
-                    echo "Firstname: " . $row["FirstName"] . " Lastname: " . $row["LastName"]. " First Answer: " . $row["Ans1"]. " Second Answer: " . $row["Ans2"]." Third Answer: " . $row["Ans3"]. "<br>";
+                    echo "<br>Firstname: " . $row["FirstName"] . " Lastname: " . $row["LastName"]. " First Answer: " . $row["Ans1"]. " Second Answer: " . $row["Ans2"]." Third Answer: " . $row["Ans3"]. "<br>";
                 }while($row = mysqli_retch_assoc($result));
             }
             else{
