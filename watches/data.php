@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <body>
+        Thank you for doing the quiz! I hope you enjoyed your reading on watches.
         <?php
             //define variables
             $servername = "localhost";
@@ -33,7 +34,7 @@
             if (mysqli_num_rows($result) > 0){
                 //output data of each column
                 while($column = mysqli_retch_assoc($result)) {
-                    echo "Firstname: " . $column["FirstName"] . " Lastname: " . $column["LastName"]. "<br>";
+                    echo "Firstname: " . $column["FirstName"] . " Lastname: " . $column["LastName"]. " First Answer: " . $column["Ans1"]. " Second Answer: " . $column["Ans2"]." Third Answer: " . $column["Ans3"]. "<br>";
                 }
             }
             else{
