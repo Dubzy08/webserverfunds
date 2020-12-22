@@ -5,7 +5,7 @@
     </head>
     <body>
         <h1>The World of Watches</h1>
-        <h2>Types of <span style="color:gold">W</span><span style="color:green">a</span><span style="color:blue">t</span><span style="color:red">c</span></h2>
+        <h2>Types of <span style="color:gold">W</span><span style="color:green">a</span><span style="color:blue">t</span><span style="color:red">c</span><span style="color:gold">h</span><span style="color:green">e</span><span style="color:blue">s</span></h2>
         <div>There are many types of analog watches which function totally differently. The following is a list of a few diferent types:</div>
         <ul>
             <li><a href="mechanical.php">Mechanical</a></li>
