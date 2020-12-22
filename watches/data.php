@@ -28,16 +28,15 @@
             //$sql = "INSERT INTO dummy (FirstName, LastName) VALUES ('$EnterFname','$EnterLname')";
             $sql = "INSERT INTO answers (FirstName, LastName, Ans1, Ans2, Ans3) VALUES ('$EnterFname','$EnterLname','$EnterAns1','$EnterAns2','$EnterAns3')";
             $result = mysqli_query($conn, $sql);
-            echo $result;
-            
+
             //select data and query
             $sql = "SELECT * FROM answers";
             $result = mysqli_query($conn, $sql);
+            echo "<br>";
 
             if (mysqli_num_rows($result) > 0){
                 //output data of each row
                 while($row = mysqli_fetch_assoc($result)){
-                    echo"<br>";
                     echo "Firstname: " . $row["FirstName"] . " Lastname: " . $row["LastName"]. " First Answer: " . $row["Ans1"]. " Second Answer: " . $row["Ans2"]." Third Answer: " . $row["Ans3"]. "<br>";
                 };
             }
