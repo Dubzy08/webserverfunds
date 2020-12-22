@@ -34,10 +34,10 @@
 
             if (mysqli_num_rows($result) > 0){
                 //output data of each row
-                do{
+                while($row = mysqli_fetch_assoc($result)){
                     echo"<br>";
                     echo "Firstname: " . $row["FirstName"] . " Lastname: " . $row["LastName"]. " First Answer: " . $row["Ans1"]. " Second Answer: " . $row["Ans2"]." Third Answer: " . $row["Ans3"]. "<br>";
-                }while($row = mysqli_retch_assoc($result));
+                };
             }
             else{
                 echo "0 results";
