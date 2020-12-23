@@ -30,15 +30,15 @@
             $output = `gpio read 0`;
 
             //If pin is low
-            if (($output = `gpio read 0`) == 0){
-                $output = `gpio write gpio.0 1`;
+            if (($output) == 0){
+                $output = `gpio write gpio 0 1`;
                 echo "<div>$output</div>";              //show output on command line level
                 echo "<br>LED should toggle ON!<br>";   //show output on website
             }
             
             //If pin is high
             else if (($output = `gpio read 0`) == 1){
-            $output = `gpio write gpio.0 0`;
+            $output = `gpio write gpio 0 0`;
             echo "<div>$output</div>";
             echo "<br>LED should toggle OFF!<br>";
             }
