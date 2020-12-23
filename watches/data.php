@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <body>
-        Thank you for doing the quiz! I hope you enjoyed your reading on watches.
+        Thank you for doing the quiz! I hope you enjoyed your reading on watches.<br>
         <?php
             //define variables
             $servername = "localhost";
