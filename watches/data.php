@@ -25,7 +25,6 @@
             }
 
             //insert data from form
-            //$sql = "INSERT INTO dummy (FirstName, LastName) VALUES ('$EnterFname','$EnterLname')";
             $sql = "INSERT INTO answers (FirstName, LastName, Ans1, Ans2, Ans3) VALUES ('$EnterFname','$EnterLname','$EnterAns1','$EnterAns2','$EnterAns3')";
             $result = mysqli_query($conn, $sql);
 
