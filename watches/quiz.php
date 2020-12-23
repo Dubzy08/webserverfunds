@@ -13,7 +13,7 @@
     Test your knowlege on watches that you have <br> just learned about with the following quiz<br><br>
   </div>
 
-  <form onsubmit="checkForm()" action="data.php" method="post">
+  <form onsubmit="return checkForm()" action="data.php" method="post">
 
     <br/>
     First Name<br/>

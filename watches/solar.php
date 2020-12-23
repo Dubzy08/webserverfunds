@@ -2,15 +2,17 @@
 <html>
     <head>
         <h2>
-            Kinetc Watches
+            Solar Watches
         </h2>
     </head>
     <body>
         <div>
-            Kinetc watches have a very particular way of working. This type of watch is<br>
-            basically the combination of an automatic watch and a quartz watch. This is<br>
+            Solar watches work a lot like quartz watches in the sens that they have a<br>
+            battery which is used to hold the power of the watch and make it tick ever<br>
+            second. However, it charges from the help of light radiation, a lot like <br>
+            solar pannels.
             <br><br>
-            Here we can see the inside of a luxury mecahnical watch:<br>
+            Here we can have an idea of how the light is concentrated in the watch:<br>
             <img src="https://i.ytimg.com/vi/4zQdxie31kI/maxresdefault.jpg" alt="Solar watch" width="400" />
             <br>
             <br>
